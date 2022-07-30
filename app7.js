@@ -9,11 +9,9 @@ btn1.addEventListener('click', function () {
     fetch(setUrl)
         .then(res => res.json())
         .then(json => {
+            console.log(json)
             console.log(json.contents.translated),
                 x = json.contents.translated
             console.log(x.toUpperCase())
         })
-
-
-
 })
