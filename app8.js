@@ -5,6 +5,7 @@ btn.addEventListener(('click'), function () {
 
     fetch(url)
         .then(res => {
+            console.log(res)
             out.innerText = res.statusText
         })
 })
