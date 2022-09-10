@@ -21,3 +21,10 @@ blue.addEventListener('click', function () {
     output.innerText = text.value
     output.style.color = '#0000FF'
 })
+
+dadgh.addEventListener('click', function () {
+
+
+    output.innerText = text.value
+    output.style.color = '#0000FF'
+})
